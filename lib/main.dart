@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimations/animated_container.dart';
+import 'package:flutteranimations/travel_app_trip/travel-app-first-screen/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Animated_Container(),
+      home: Home_Screen(),
     );
   }
 }
